@@ -1,0 +1,8 @@
+/*Explication du concept*/
+- Demande au programme de démarrer une tâche à l'exécution longue
+- Pour démarrer le programme il n'attend pas la fin de la tâche mais il réagit continuellement
+
+/*Exemple de fonction asynchrone*/
+- L'envoi des requêtes avec fetch()
+- La sélection de fichiers avec showOpenFilePicker()
+
