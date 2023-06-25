@@ -6,3 +6,17 @@
 - L'envoi des requêtes avec fetch()
 - La sélection de fichiers avec showOpenFilePicker()
 
+
+-> Une promesse est un objet renvoyé par une fonction asynchrone et qui représente l'état courant de l'opération
+-> Elle fait état de l'avancée des choses
+
+-> fetch() - Permet de faire une requête HTTP. C'est une API
+
+-> catch() - Méthode permettant de gérer les erreurs lié aux requêtes HTTP
+    - Si on le met à la fin du gestionnaire, il peut gérer l'entièreté des problèmes
+
+-> Promise.all() - Méthode permettant de mettre en place plusieurs promesses avec une exécution qui ne dépend pas des autres
+
+-> Promise.any() - Pareil que .all() mais ici si l'un fonctionne alors c'est ok. 
+
+-> async - Mot clé permettant de transformer une fonction en tant que asynchrone
